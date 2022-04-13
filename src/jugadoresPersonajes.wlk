@@ -18,7 +18,6 @@ object mario {
 	var valorRecolectado = 0
 }
 
-
 //    ballesta y jabalina, dos armas. floki tiene una de estas armas.
 
 //    castillo, aurora (que es una vaca) y tipa (que es un árbol), tres elementos.
