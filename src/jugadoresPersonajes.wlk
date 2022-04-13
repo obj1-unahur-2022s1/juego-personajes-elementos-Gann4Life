@@ -1,5 +1,3 @@
-// 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
-
 //    luisa, una jugadora,
 object luisa {
 	
@@ -22,7 +20,7 @@ object mario {
 object ballesta {
 	var flechas = 10
 	
-	method cargada() { return flechas > 0 }
+	method cargada() { return self.flechas() > 0 }
 	method flechas() { return flechas }
 	
 	method usar() { flechas -= 1 } 
