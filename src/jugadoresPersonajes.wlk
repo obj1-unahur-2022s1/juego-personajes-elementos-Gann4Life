@@ -19,5 +19,14 @@ object mario {
 }
 
 //    ballesta y jabalina, dos armas. floki tiene una de estas armas.
+object ballesta {
+	var flechas = 10
+	
+	method cargada() { return flechas > 0 }
+	method cantidadFlechas() { return flechas }
+	
+	method usar() { flechas -= 1 }
+	
+}
 
 //    castillo, aurora (que es una vaca) y tipa (que es un árbol), tres elementos.
