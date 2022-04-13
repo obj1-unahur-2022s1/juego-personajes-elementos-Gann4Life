@@ -1,4 +1,4 @@
-// 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
+// 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
 
 //    luisa, una jugadora,
 object luisa {
