@@ -23,7 +23,7 @@ object ballesta {
 	var flechas = 10
 	
 	method cargada() { return flechas > 0 }
-	method cantidadFlechas() { return flechas }
+	method flechas() { return flechas }
 	
 	method usar() { flechas -= 1 } 
 	
