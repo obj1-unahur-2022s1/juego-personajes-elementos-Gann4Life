@@ -25,7 +25,7 @@ object ballesta {
 	method cargada() { return flechas > 0 }
 	method cantidadFlechas() { return flechas }
 	
-	method usar() { flechas -= 1 }
+	method usar() { flechas -= 1 } 
 	
 }
 
