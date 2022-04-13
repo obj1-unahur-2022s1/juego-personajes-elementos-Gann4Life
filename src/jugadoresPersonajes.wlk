@@ -28,3 +28,12 @@ object ballesta {
 }
 
 //    castillo, aurora (que es una vaca) y tipa (que es un árbol), tres elementos.
+object castillo {
+	
+}
+object aurora {
+	
+}
+object tipa {
+	
+}
