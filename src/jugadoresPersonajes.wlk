@@ -7,13 +7,18 @@ object luisa {
 //    floki, un personaje guerrero,
 object floki {
 	var arma
-	
+	method encontrar(elemento) {
+		
+	}
 }
 
 
 //    mario, un personaje trabajador,
 object mario {
 	var valorRecolectado = 0
+	method encontrar(elemento) {
+		
+	}
 }
 
 //    ballesta y jabalina, dos armas. floki tiene una de estas armas.
@@ -27,15 +32,19 @@ object ballesta {
 	
 }
 
-//    castillo, aurora (que es una vaca) y tipa (que es un árbol), tres elementos.
 object castillo {
-	
-}
-object aurora {
-	
-}
-object tipa {
-	
+	var defensa = 150
+	method defensa() { return defensa } 
+	method altura() { return 20 }
 }
 
-// Test from Windows git
+object aurora {
+	var vive = true
+	method vive(){ return vive }
+	method altura() { return 1 }
+}
+
+object tipa {
+	var altura = 8
+	method altura() { return altura }
+}
